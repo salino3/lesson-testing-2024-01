@@ -11,6 +11,8 @@ import './index.css'
 // npm install --save-dev @babel/preset-env
 // npm i --save-dev identity-obj-proxy
 
+// npm install --save-dev @types/jest @types/jasmine @testing-library/jest-dom
+
 
 
 
