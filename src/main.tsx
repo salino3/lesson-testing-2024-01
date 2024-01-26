@@ -14,6 +14,7 @@ import './index.css'
 // npm install --save-dev @types/jest @types/jasmine @testing-library/jest-dom
 
 
+//*> npm test -- --clearCache
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
