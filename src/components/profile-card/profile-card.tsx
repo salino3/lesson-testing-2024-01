@@ -38,12 +38,14 @@ export const ProfileCard: React.FC<Props> = ({
   age,
   description,
 }) => {
-titleCase('hola joe');
+const titleValue =  titleCase('hola joe');
 
   return (
-  
     <div>
-
+      {name}
+      {surname}
+      {age}
+      {description}
     </div>
   );
 };
