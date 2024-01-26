@@ -5,7 +5,11 @@ interface Props {
   [key: string]: any;
 };
 
-export function titleCase(text: any) {
+export function titleCase(text: string) {
+  
+      if(typeof text !== 'string'){
+        return alert('Error! the value must be a string');
+      };
 
     const arr = text.split(' ');
 
